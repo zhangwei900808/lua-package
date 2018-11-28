@@ -1,7 +1,8 @@
 package = "lua-package"
-version = "dev-1"
+version = "1.0-1"
 source = {
    url = "git://github.com/zhangwei900808/lua-package.git",
+   tag = "v1.0-1",
    branch = "master"
 }
 description = {
@@ -15,5 +16,7 @@ dependencies = {
 }
 build = {
    type = "builtin",
-   modules = {}
+   modules = {
+     ["lua-package"] = "lua-package.lua"
+   }
 }
