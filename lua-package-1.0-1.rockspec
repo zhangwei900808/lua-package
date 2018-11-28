@@ -7,7 +7,7 @@ source = {
 }
 description = {
    summary = "A test lua package with luarocks",
-   homepage = "https://github.com/zhangwei900808/lua-package",
+   homepage = "https://zhangwei900808.github.com/lua-package",
    maintainer = "zhangwei<zw900808@gmail.com>",
    license = "MIT"
 }
